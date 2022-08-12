@@ -23,8 +23,8 @@ function HomeStackScreen() {
       headerShown:true
   }}>
       <HomeStack.Screen name="Home" component={HomeScreen} options={{headerTintColor: '#ffffff'}}/>
-      <HomeStack.Screen name="Details" component={DetailsScreen} options={{headerTintColor: '#ffffff'}}/>
-      <HomeStack.Screen name="Thanhtoan" component={Thanhtoan}/>
+      <HomeStack.Screen name="Details" component={DetailsScreen} />
+      <HomeStack.Screen name="Thanhtoan" component={Thanhtoan}/> 
     </HomeStack.Navigator>
   );
 }
